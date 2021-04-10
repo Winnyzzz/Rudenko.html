@@ -1,0 +1,353 @@
+
+.wrapper{
+    margin:auto;
+    padding:0;
+    max-width:1000px;
+    min-height:100%;
+}
+body {
+    background:url(SiAcxf.jpg) no-repeat;
+    background-size:cover;
+    font-family: 'Ubuntu', sans-serif;
+    margin:0;
+    padding:0;
+}
+/*HEADER*/
+.header{
+    display:fixed;
+    width:100%;
+    height:100px;
+    border-radius:0px 0px 20px 20px;
+    background:#00897B;
+}
+.header__flex{
+    height:90px;
+    width:90%;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    max-width:100%;
+}
+.menu{
+    width:40%;
+    display:flex;
+}
+.header__menu-right{
+}
+.header__logo{
+    width:70px;
+}
+.header__logo img{
+    width:70px;
+    height:70px;
+}
+.menu ul{
+    width:100%;
+    margin:0;
+    display:flex;
+    justify-content:space-between;
+}
+.menu ul a {
+    transition-duration:0.5s;
+    width:90px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    color:#fff;
+    text-decoration:none;
+}
+.menu ul a:hover{
+    transition-duration:0.5s;
+    color:#DADADA;
+}
+.menu ul a li{
+    font-weight:600;
+    text-transform:uppercase;
+    list-style:none;
+}
+/*MAIN*/
+.main-screen{
+    margin: auto;
+    max-width:1000px;
+    display: flex;
+}
+.main{
+    height:35vh;
+    width:500px;
+    margin:auto;
+}
+.main__inner{
+    margin-top: 50px;
+}
+.main,.footer,.price-list{
+    letter-spacing:1.25px;
+    font-weight:500;
+    font-size:22px;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.main{
+    margin-top:20vh;
+}
+.main__dis{
+    font-size: 25px;
+    text-align:center;
+}
+
+.price-list{
+    margin:auto;
+    width:100%;
+}
+/*contact-us*/
+.contact-us{
+    margin: 110px auto 0 auto;
+    width: 100%;
+    height: 700px;
+}
+
+.contact-us__img img{
+    width: 100px;
+    margin-left:calc(50% - 50px);
+    margin-top: 20px;
+    cursor: pointer;
+}
+.form__title{
+    width: 280px;
+    text-align: center;
+    margin-top:10px;
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.form{
+    box-shadow: 0px 0px  7px #000;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+    background: #E4FDF9;
+    margin-top: 10px auto 0px auto;
+    border:1px solid #00897B;
+    height: 500px;
+    width: 300px;
+}
+.contact-us__btn{
+    transition-duration: 0.5s;
+    width: 110px;
+    height: 30px;
+    border: 2px solid #000;
+    background:rgb(255,0,0);
+    font-weight: bold;
+    color: #fff;
+}
+
+form input{
+    padding-left:5px ;
+    border-radius: 5px;
+    width: 250px;
+    height: 20px;
+    margin:15px;
+    border: 2px solid #000;
+}
+
+form p{
+    font-weight: 500;
+    font-size: 20px;
+    margin:0;
+    margin-left: 15px;
+}
+.form input:hover{
+    border: 2px solid #01BEFF;
+}
+.form input:focus{
+    outline: none;
+}
+.contact-us__btn:hover{
+    transition-duration: 0.5s;
+    background:#D60000 ;
+    border: 2px solid #000;
+}
+/*SERVICE*/
+.service{
+    box-shadow: 0px 0px  7px #000;
+    margin: 0 auto 0 auto;
+    width: 100%;
+    height: 750px;
+    background:#E4FDF9;
+}
+.service__title h1{
+    position: relative;
+    top: 20px;
+    font-size: 45px;
+    margin-top: 50px;
+}
+.service__dis_title{
+    text-align: center;
+    font-size: 21px;
+    width: 70%;
+    font-weight: 500;
+    margin: 70px auto 0 auto;
+}
+.service__container-out{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.service__container{
+    border-radius: 2px;
+    margin:25px 0px 0px ;
+    text-align: center;
+    background-color: #fff;
+    width: 30%;
+    height: 438px;
+    display: flex;
+    flex-direction: column;
+}
+.service__img{
+    margin-top: 20px;
+    display: block;
+    height: 100px;
+    background: url(img/smartphone_copy.png) no-repeat;
+    background-position: center;
+}
+.service__inner-title{
+    color:#000;
+    font-size: 22px;
+    font-weight: bold;
+}
+.service__btn button{
+    margin: 25px auto 0px auto;
+    width: 110px;
+    height: 40px;
+    border: 2px solid #000;
+    background:#fff;
+    font-weight: bold;
+}
+.service__dis{
+    font-size: 18px;
+    width: 70%;
+    margin: 25px auto 0px auto;
+    color: #000;
+}
+    .service__container:hover > .service__img {
+        display: block;
+        height: 100px;
+        background: url(img/smartphone.png) no-repeat;
+        background-position: center;
+    }
+    .service__container:hover > .service__inner-title{
+        color: #fff;
+    }
+    .service__container:hover > .service__dis{
+        color: #fff;
+    }
+    .service__container:hover{
+        background:#00897B;
+    }
+    .service__container:hover > .service__btn button{
+        background:#00897B;
+        color:#fff;
+        border: 2px solid #fff;
+        cursor: pointer;
+    }
+
+                /*PRICE-LIST*/
+.price-list{
+    box-shadow: 0px 0px  5px #000;
+    background: #fff;
+    height: 400px;
+}
+.price-list__title h1 {
+    margin-top: 45px;
+}
+.ps_title{
+    text-align:center;
+    text-transform:uppercase;
+    background-color:rgba(255,116,0,0.8);
+}
+.price_opportunities{
+    background-color:rgba(145,255,206,0.8);
+}
+.price_num{
+    background-color:rgba(61,255,0,0.8);
+}
+table th{
+    font-weight:900;
+}
+table,tr,td,th{
+    border:1px solid #000;
+}
+table{
+    background:#fff;
+    margin:auto;
+}
+td:hover{
+    color:#333333;
+    cursor:pointer;
+}
+.ps_title:hover{
+    color:red;
+    cursor:pointer;
+}
+.price_opportunities{
+    
+}
+
+.prise::after{
+    content:'+';
+    cursor:pointer;
+    color:red;
+    font-size:27px;
+}
+.btn{
+    background-color:red;
+    width:75px;
+    height:35px;
+    border:none;
+    color:#fff;
+    font-weight:600;
+    text-transform:uppercase;
+    margin-top:15px;
+    margin-left:19%;
+    transition-duration:0.2s;
+}
+.btn:hover{
+    transition-duration:0.2s;
+    cursor:pointer;
+    background:#d60000;
+}
+/*FOOTER*/
+footer{
+    margin-top:0;
+    background:#3E3E3E;
+    height:150px;
+}
+.wrapper_footer{
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.wrapper_footer a {
+    transition-duration:0.5s;
+    text-decoration:none;
+    color:#c9c9c9;
+    font-size:25px;
+}
+.wrapper_footer a:hover {
+    color:#fff;
+    transition-duration:0.5s;
+}
+/*ОБЩЕЕ*/
+.title{
+    font-size:35px;
+    text-transform:uppercase;
+    text-align:center;
+}
+/*ser*/
+.contact-us__title{
+    font-weight: 600;
+    font-size: 50px;
+}
